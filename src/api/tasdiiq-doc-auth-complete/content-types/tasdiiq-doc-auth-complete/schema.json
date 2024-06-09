@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasdiiq_doc_auth_completes",
+  "info": {
+    "singularName": "tasdiiq-doc-auth-complete",
+    "pluralName": "tasdiiq-doc-auth-completes",
+    "displayName": "tasdiiq-doc-auth-complete"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Document_ID": {
+      "type": "string",
+      "required": true
+    },
+    "document_type": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string"
+    },
+    "name_of_payer": {
+      "type": "string",
+      "required": true
+    },
+    "name_of_owner": {
+      "type": "string"
+    },
+    "phone_of_payer": {
+      "type": "string",
+      "required": true
+    },
+    "office": {
+      "type": "string",
+      "required": true
+    },
+    "payment_amount": {
+      "type": "string",
+      "required": true
+    },
+    "discount": {
+      "type": "string",
+      "required": false
+    },
+    "number_of_documnents": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

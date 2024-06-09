@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasdiiq_doc_auths",
+  "info": {
+    "singularName": "tasdiiq-doc-auth",
+    "pluralName": "tasdiiq-doc-auths",
+    "displayName": "Tasdiiq-doc-auth"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Document_ID": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "document_type": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

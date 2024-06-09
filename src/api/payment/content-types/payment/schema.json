@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "amount": {
+      "type": "decimal",
+      "required": true
+    },
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "office": {
+      "type": "string",
+      "required": true
+    },
+    "Tasdiiq_rate": {
+      "type": "decimal"
+    },
+    "cashier": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "tasdiiq_rates",
+  "info": {
+    "singularName": "tasdiiq-rate",
+    "pluralName": "tasdiiq-rates",
+    "displayName": "tasdiiq_rate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rates": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
